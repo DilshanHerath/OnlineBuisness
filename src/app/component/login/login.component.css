@@ -1,0 +1,98 @@
+.img{
+  width: calc(100% - 560px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.inp{
+  width: 450px;
+  height: 60px;
+}
+
+.btnlogin{
+  width: 450px;
+  border: none;
+  height: 45px;
+  letter-spacing: 3px;
+  background: #3b5998;
+}
+.txt{
+  cursor: pointer;
+  color: #bababa;
+  font-size: 16px;
+}
+@media only screen and  (min-width: 320px)and (max-width: 375px) {
+  .inp{
+    width: 203px;
+    height: 36px;
+  }
+  .btnlogin{
+    width: 203px;
+    height: 35px;
+  }
+  .txt{
+    font-size: 13px;
+  }
+}
+
+@media only screen and  (min-width: 375px)and (max-width: 425px) {
+  .inp{
+    width: 250px;
+    height: 45px;
+  }
+  .btnlogin{
+    width: 250px;
+    height: 37px;
+  }
+  .txt{
+    font-size: 13px;
+  }
+}
+
+@media only screen and  (min-width: 425px)and (max-width: 575px){
+  .inp{
+    width: 330px;
+    height: 55px;
+  }
+  .btnlogin{
+    width: 330px;
+    height: 40px;
+  }
+  .txt{
+    font-size: 16px;
+  }
+}
+
+@media only screen and  (min-width: 575px)and (max-width: 675px){
+  .inp{
+    width: 430px;
+    height: 55px;
+  }
+  .btnlogin{
+    width: 450px;
+    height: 45px;
+  }
+  .txt{
+    font-size: 16px;
+  }
+}
+
+@media only screen and  (min-width: 675px)and (max-width: 768px){}
+
+
+@media only screen and  (min-width: 768px)and (max-width: 991px){
+  .inp{
+    width: 430px;
+    height: 55px;
+  }
+  .btnlogin{
+    width: 450px;
+    height: 45px;
+  }
+}
+
+@media only screen and  (min-width: 991px) {
+}

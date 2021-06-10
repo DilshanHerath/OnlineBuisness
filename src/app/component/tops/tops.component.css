@@ -1,0 +1,24 @@
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.cardbody:hover {
+  box-shadow: 6px 6px 17px -3px #000000;
+  transition: .3s ease;
+}
+.div2{
+  width: fit-content;
+  margin-bottom: 5%
+}
+.tittle2{
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 4px;
+  opacity: 0.9;
+  text-align: center;
+  color:black;
+  font-weight: bold;
+  margin: 0;
+  font-size: 30px;
+  text-shadow: 2px 2px #FF0000;
+}

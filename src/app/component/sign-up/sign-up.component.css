@@ -1,0 +1,88 @@
+.div1{
+  /*width: 60%;*/
+  background: #ffffff;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+.inp{
+  height: 45px;
+  width: 400px;
+  background: #faf7f7;
+}
+.inp2{
+  height: 80px;
+  background: #faf7f7;
+}
+
+.div3{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media only screen and  (min-width: 320px)and (max-width: 375px) {
+  .div1{
+    width: 100%;
+  }
+  .inp{
+    height: 45px;
+    width: 315px;
+    background: #faf7f7;
+  }
+  .inp2{
+    height: 80px;
+    background: #faf7f7;
+  }
+  .div3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+
+
+}
+@media only screen and  (min-width: 375px)and (max-width: 425px) {
+  .inp{
+    height: 45px;
+    width: 358px;
+    background: #faf7f7;
+  }
+  .div1{
+    width: 100%;
+  }
+}
+
+@media only screen and  (min-width: 425px)and (max-width: 575px){
+  .inp{
+    height: 45px;
+    width: 405px;
+  }
+
+}
+
+@media only screen and  (min-width: 575px)and (max-width: 675px){
+    .div1{
+      width: 80%;
+    }
+
+}
+
+@media only screen and  (min-width: 675px)and (max-width: 768px){
+
+}
+
+
+@media only screen and  (min-width: 768px)and (max-width: 991px){
+  .div1{
+    width: 80%;
+  }
+  .inp{
+    height: 45px;
+    width: 300px;
+  }
+}
+
+@media only screen and  (min-width: 991px) {
+}

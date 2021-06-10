@@ -1,0 +1,47 @@
+<!--<div style="flex-direction: row;align-items: center;justify-content: center;display: flex;height: 100%">-->
+<div style="
+   background-image: url('../../../assets/img/background2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*height: 45vw;*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+padding: 0;
+"
+>
+<div class="col-9 col-sm-9 col-md-8 col-xl-5" style="opacity: 0.8;background-color: black;padding: 0;border-radius: 20px">
+    <form>
+      <div style="display: flex;justify-content: center;align-items: center;margin-bottom: 5%;margin-top: 10%">
+        <input type="email" class="form-control inp"
+               id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+      </div>
+      <div class="mb-3"  style="display: flex;justify-content: center;align-items: center">
+        <input type="password" class="form-control inp" id="exampleInputPassword1"
+               placeholder="Password">
+      </div>
+      <div class="form-check p-0" style="margin-top: 5%;margin-bottom: 8%">
+        <div style="flex-direction: row;justify-content: space-around;display: flex;">
+        <div>
+          <input style="width: 20px;height: 20px" type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label mt-1 ml-3" for="exampleCheck1" style="color: #9c9a9a">Remember me</label>
+        </div>
+          <div>
+              <h2 class="txt" style="" (click)="signUp()">Sign up</h2>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex;justify-content: center;align-items: center;margin-bottom: 10%">
+        <button style="" type="submit"
+                (click)="Login()" class="btn btn-primary btnlogin">LOGIN</button>
+      </div>
+    </form>
+  </div>
+
+
+</div>
+

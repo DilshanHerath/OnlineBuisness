@@ -1,0 +1,409 @@
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  padding: 0;
+  margin-top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), black);
+}
+
+.overlay1 {
+  position: absolute;
+  padding: 0;
+  margin-top: 50%;
+  bottom: 0;
+  left: 2%;
+  right: 0;
+  height: 100%;
+  /*width: 80%;*/
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), black);
+}
+
+
+.div1:hover .overlay {
+  opacity: 1;
+  /*position: relative;*/
+  /*width: 50%;*/
+}
+
+.div1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.text {
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cardbody:hover {
+  box-shadow: 6px 6px 17px -3px #000000;
+  transition: .3s ease;
+}
+
+.hr1 {
+  border: 1.5px solid black;
+  opacity: 1;
+}
+
+.officecoverimg {
+  background-image: url('../../../assets/img/officecover.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 45vw;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.tshirtcoverimg {
+  background-image: url('../../../assets/img/tshirtcover.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 45vw;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.officecoverimg :hover {
+  opacity: 1;
+}
+
+.tshirtcoverimg :hover {
+  opacity: 1;
+}
+
+.div2 {
+  width: fit-content;
+  margin-bottom: 5%
+}
+
+.subtittle {
+  font-weight: bold;
+  cursor: pointer
+}
+
+
+.subtittle2 {
+  font-weight: bold;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.tittle {
+  font-family: 'Lobster', cursive;
+  color: blue;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.maintittle {
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 4px;
+  opacity: 0.9;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.logoimg {
+  width: 91px;
+  height: 90px;
+  margin-left: 4%;
+}
+
+.divblack {
+  opacity: 0.8;
+  background-color: black;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.div3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.div4 {
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+/*---------------------------------------------------------media Quary-------------------------------------------------------------*/
+
+@media only screen and  (min-width: 320px)and (max-width: 375px) {
+  .logoimg {
+    display: none;
+  }
+
+  .divblack {
+    display: none;
+  }
+
+  .subtittle {
+    padding: 0;
+  }
+
+  .maintittle {
+    font-size: 21px;
+  }
+
+  .officecoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+
+  .tshirtcoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+
+  .text {
+    font-size: 21px;
+  }
+
+  .bntcheckout {
+    margin-top: 5%;
+  }
+
+  .div3 {
+    justify-content: center;
+  }
+
+  .div4 {
+    justify-content: center;
+  }
+
+}
+
+@media only screen and  (min-width: 375px)and (max-width: 425px) {
+
+
+  .logoimg {
+    display: none;
+  }
+
+  .divblack {
+    display: none;
+  }
+
+  .subtittle {
+    padding: 0;
+  }
+
+  .maintittle {
+    font-size: 23px;
+  }
+  .div3 {
+    justify-content: center;
+  }
+
+  .div4 {
+    justify-content: center;
+  }
+  .officecoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+
+  .tshirtcoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+  .bntcheckout2{
+    margin-top: 5%;
+  }
+}
+
+@media only screen and  (min-width: 425px)and (max-width: 575px) {
+
+
+  .logoimg {
+    display: none;
+  }
+
+  .divblack {
+    display: none;
+  }
+
+  .subtittle {
+    padding: 0;
+  }
+
+  .maintittle {
+    font-size: 25px;
+  }
+  .div3 {
+    justify-content: center;
+  }
+
+  .div4 {
+    justify-content: center;
+  }
+  .officecoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+
+  .tshirtcoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+  .bntcheckout2{
+    margin-top: 5%;
+  }
+
+}
+
+@media only screen and  (min-width: 575px)and (max-width: 675px) {
+
+  .logoimg {
+    display: none;
+  }
+
+  .divblack {
+    display: none;
+  }
+
+  .subtittle {
+    padding: 0;
+  }
+
+  .maintittle {
+    font-size: 23px;
+  }
+  .div3 {
+    justify-content: center;
+  }
+
+  .div4 {
+    justify-content: center;
+  }
+  .officecoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+
+  .tshirtcoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+  .bntcheckout2{
+    margin-top: 5%;
+  }
+}
+
+@media only screen and  (min-width: 675px)and (max-width: 768px) {
+
+  .logoimg {
+    /*display: none;*/
+  }
+
+  .divblack {
+    display: none;
+  }
+
+  .subtittle {
+    padding: 0;
+  }
+
+  .maintittle {
+    font-size: 23px;
+  }
+  .div3 {
+    justify-content: center;
+  }
+
+  .div4 {
+    justify-content: center;
+  }
+  .officecoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+
+  .tshirtcoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+
+}
+
+
+@media only screen and  (min-width: 768px)and (max-width: 991px) {
+  .logoimg {
+    /*display: none;*/
+  }
+
+  .divblack {
+    display: none;
+  }
+
+  .subtittle {
+    padding: 0;
+  }
+
+  .maintittle {
+    font-size: 23px;
+  }
+  .div3 {
+    justify-content: center;
+  }
+
+  .div4 {
+    justify-content: center;
+  }
+  .officecoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+
+  .tshirtcoverimg {
+    height: 100vw;
+    margin-bottom: 8%;
+  }
+
+}
+
+@media only screen and  (min-width: 991px) {
+}

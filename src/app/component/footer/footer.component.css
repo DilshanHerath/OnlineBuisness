@@ -1,0 +1,106 @@
+.p2{
+ margin: 0;
+  font-size: 12px;
+  color: #d4cbcb;
+}
+
+.p3{
+  margin: 0;
+  font-size: 12px;
+  cursor: pointer;
+  color: #d4cbcb;
+}
+
+.p3:hover{
+  color: yellow;
+}
+
+.tittle{
+  color: #dbdbdb;
+  margin: 0;
+}
+.btnsubs{
+  background: black;
+  border: none;
+  opacity: 0.9;
+  letter-spacing:3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.icnlogo{
+  width: 40px;
+  height: 40px;
+}
+
+/*---------------------------------------------------------media Quary-------------------------------------------------------------*/
+
+
+@media only screen and  (min-width: 320px)and (max-width: 375px) {
+ .tittle{
+   font-size: 11px;
+   color: #05ff3b;
+   /*margin: 0;*/
+ }
+  .btnsubs{
+    margin-top: 5%;
+  }
+  .p2{
+    font-size: 10px;
+  }
+  .p3{
+    font-size: 10px;
+  }
+  .icnlogo{
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+@media only screen and  (min-width: 375px)and (max-width: 425px) {
+  .tittle{
+    font-size: 15px;
+  }
+  .btnsubs{
+    margin-top: 5%;
+  }
+  .p2{
+    font-size: 11px;
+  }
+  .p3{
+    font-size: 11px;
+  }
+  .icnlogo{
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+@media only screen and  (min-width: 425px)and (max-width: 575px) {
+  .btnsubs{
+    margin-top: 5%;
+  }
+}
+
+@media only screen and  (min-width: 575px)and (max-width: 675px){
+  .btnsubs{
+    margin-top: 5%;
+  }
+}
+
+@media only screen and  (min-width: 675px)and (max-width: 768px) {
+  .btnsubs{
+    margin-top: 5%;
+  }
+}
+
+
+@media only screen and  (min-width: 768px)and (max-width: 991px){
+  .btnsubs{
+    margin-top: 5%;
+  }
+}
+
+@media only screen and  (min-width: 991px) {
+}

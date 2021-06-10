@@ -1,0 +1,411 @@
+<div style="
+   background-image: url('../../../assets/img/coverimg1.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 45vw;
+  width: 100%;
+  margin-bottom: 5%;
+padding: 0;
+"
+>
+  <div style="width: 90%">
+
+    <div style="justify-content: flex-end;display: flex" id="home">
+      <nav class="navbar navbar-expand-lg navbar-light " style="background: transparent">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active subtittle" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link subtittle" href="#category">Clothing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link subtittle" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link subtittle" routerLink="/login" routerLinkActive="active">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+    <div>
+      <img  src="../../../assets/img/logo.png" class="img-fluid logoimg" alt="">
+    </div>
+  </div>
+ <div style="display: flex;justify-content: center;align-items: center;margin-top: 5%">
+   <div class="divblack">
+     <div style="margin-top: 5%;justify-content: center;display: flex">
+       <div><h2 class="tittle">passion instead of fashion</h2></div>
+     </div>
+     <div style="justify-content: center;display: flex;margin-bottom: 3%">
+       <div><h3 style="color: blue;font-size: 25px" class="subtittle2">Smart | Stylish | On-Trend</h3></div>
+     </div>
+   </div>
+ </div>
+
+</div>
+
+<div style="background: #D9D8C9">
+  <!---------------------------------------------------category-------------------------------------------------------->
+
+  <section id="category" class="category" style="background: #D9D8C9">
+    <div
+      style="background: #363636;height: 50px;display: flex;align-items: center;justify-content: center;margin-top: 3%">
+      <h1 class="maintittle">Category</h1>
+    </div>
+    <hr class="hr1">
+    <hr>
+
+    <div class="row m-0 div4"  style="">
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2" style="position: relative" (click)="category('dress')">
+        <div class="div1">
+          <img style="" class="img-fluid image" src="../../../assets/img/dress5.jpg" alt="">
+          <div class="overlay">
+            <div class="text">Dress</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2 " style="position: relative;" (click)="category('tops')">
+        <div class="div1">
+          <img style="" class="img-fluid image" src="../../../assets/img/top/top12.jpg" alt="">
+          <div class="overlay">
+            <div class="text">Tops</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2 " style="position: relative;" (click)="category('tshirts')">
+        <div class="div1">
+          <img style="" class="img-fluid image" src="../../../assets/img/tshirt/tshirt11.jpg" alt="">
+          <div class="overlay">
+            <div class="text">T-Shirts</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2 " style="position: relative;" (click)="category('office')">
+        <div class="div1">
+          <img style="" class="img-fluid image" src="../../../assets/img/office/office4.jpg" alt="">
+          <div class="overlay">
+            <div class="text">Office</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  <hr style="margin: 0">-->
+  </section>
+
+  <!------------------------------------------------------Dress-------------------------------------------------------->
+
+  <section>
+    <div
+      style="background: #363636;height: 50px;display: flex;align-items: center;justify-content: center;margin-top: 3%">
+      <h1 class="maintittle">Dresses</h1>
+    </div>
+    <hr class="hr1">
+    <hr>
+    <div style="display: flex;justify-content: center;align-item: center">
+      <div class="row div3">
+        <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2" (click)="dress()" >
+          <div class="card cardbody" style="width: 18rem">
+            <img src="../../../assets/img/dress4.jpg" class="card-img-top image" alt="...">
+            <div class="card-body" style="background: white;">
+              <div style="display: flex;flex-direction: row;justify-content: space-between">
+                <h5 style="text-align: center;margin: 0;font-weight: bold;font-size: 18px" class="card-title">GL001</h5>
+                <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
+                <p style="text-align: center;margin: 0" class="card-text">Rs 1200/-</p>
+              </div>
+              <div style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
+                <h2 style="font-size: 15px;text-align: center;margin: 0">Sizes</h2>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XS</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">L</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XL</h3>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2">
+          <div class="card cardbody" style="width: 18rem">
+            <img src="../../../assets/img/dress3.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background: white">
+              <div style="display: flex;flex-direction: row;justify-content: space-between">
+                <h5 style="text-align: center;margin: 0;font-weight: bold;font-size: 18px" class="card-title">GL002</h5>
+                <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
+                <p style="text-align: center;margin: 0" class="card-text">Rs 1500/-</p>
+              </div>
+              <div style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
+                <h2 style="font-size: 15px;text-align: center;margin: 0">Sizes</h2>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XS</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">M</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XL</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2">
+          <div class="card cardbody" style="width: 18rem">
+            <img src="../../../assets/img/dress2.jpg" class="card-img-top image" alt="...">
+            <div class="card-body" style="background: white;">
+              <div style="display: flex;flex-direction: row;justify-content: space-between">
+                <h5 style="text-align: center;margin: 0;font-weight: bold;font-size: 18px" class="card-title">GL001</h5>
+                <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
+                <p style="text-align: center;margin: 0" class="card-text">Rs 1200/-</p>
+              </div>
+              <div style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
+                <h2 style="font-size: 15px;text-align: center;margin: 0">Sizes</h2>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XS</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">L</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XL</h3>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2">
+          <div class="card cardbody" style="width: 18rem">
+            <img src="../../../assets/img/dress1.jpg" class="card-img-top image" alt="...">
+            <div class="card-body" style="background: white;">
+              <div style="display: flex;flex-direction: row;justify-content: space-between">
+                <h5 style="text-align: center;margin: 0;font-weight: bold;font-size: 18px" class="card-title">GL001</h5>
+                <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
+                <p style="text-align: center;margin: 0" class="card-text">Rs 1200/-</p>
+              </div>
+              <div style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
+                <h2 style="font-size: 15px;text-align: center;margin: 0">Sizes</h2>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XS</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">L</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XL</h3>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------------------------------Tops-------------------------------------------------------->
+
+
+  <section>
+    <div
+      style="background: #363636;height: 50px;display: flex;align-items: center;justify-content: center;margin-top: 3%">
+      <h1 class="maintittle">Tops</h1>
+    </div>
+    <hr class="hr1">
+    <hr>
+    <div style="justify-content: center;display: flex;align-items: center">
+      <div class="row div3"
+          >
+        <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2" style="">
+          <div class="card cardbody" style="width: 18rem">
+            <img src="../../../assets/img/top/top1.jpg" class="card-img-top image" alt="...">
+            <div class="card-body" style="background: white;">
+              <div style="display: flex;flex-direction: row;justify-content: space-between">
+                <h5 style="text-align: center;margin: 0;font-weight: bold;font-size: 18px" class="card-title">GL001</h5>
+                <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
+                <p style="text-align: center;margin: 0" class="card-text">Rs 1200/-</p>
+              </div>
+              <div style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
+                <h2 style="font-size: 15px;text-align: center;margin: 0">Sizes</h2>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XS</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">L</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XL</h3>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2" >
+          <div class="card cardbody" style="width: 18rem">
+            <img src="../../../assets/img/top/top5.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background: white">
+              <div style="display: flex;flex-direction: row;justify-content: space-between">
+                <h5 style="text-align: center;margin: 0;font-weight: bold;font-size: 18px" class="card-title">GL002</h5>
+                <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
+                <p style="text-align: center;margin: 0" class="card-text">Rs 1500/-</p>
+              </div>
+              <div style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
+                <h2 style="font-size: 15px;text-align: center;margin: 0">Sizes</h2>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XS</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">M</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XL</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2" >
+          <div class="card cardbody" style="width: 18rem">
+            <img src="../../../assets/img/top/top3.jpg" class="card-img-top image" alt="...">
+            <div class="card-body" style="background: white;">
+              <div style="display: flex;flex-direction: row;justify-content: space-between">
+                <h5 style="text-align: center;margin: 0;font-weight: bold;font-size: 18px" class="card-title">GL001</h5>
+                <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
+                <p style="text-align: center;margin: 0" class="card-text">Rs 1200/-</p>
+              </div>
+              <div style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
+                <h2 style="font-size: 15px;text-align: center;margin: 0">Sizes</h2>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XS</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">L</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XL</h3>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-xl-3 div2">
+          <div class="card cardbody" style="width: 18rem">
+            <img src="../../../assets/img/top/top4.jpg" class="card-img-top image" alt="...">
+            <div class="card-body" style="background: white;">
+              <div style="display: flex;flex-direction: row;justify-content: space-between">
+                <h5 style="text-align: center;margin: 0;font-weight: bold;font-size: 18px" class="card-title">GL001</h5>
+                <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
+                <p style="text-align: center;margin: 0" class="card-text">Rs 1200/-</p>
+              </div>
+              <div style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
+                <h2 style="font-size: 15px;text-align: center;margin: 0">Sizes</h2>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XS</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">L</h3>
+                </div>
+                <div style="width: 25px;height: 25px;border: 2px solid #b3b3b3;border-radius: 30%;display: flex;
+           flex-direction: row;align-items: center;justify-content: center">
+                  <h3 style="font-size: 12px;margin:0;padding: 5px;text-align: center">XL</h3>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------------------------------tshirt/office---------------------------------------------------->
+
+  <section>
+
+
+<div style="align-items: center;display: flex;justify-content: center;margin-bottom: 10%">
+  <div class="row" style="width: 100%;flex-direction: row;display: flex;align-items: center;
+  justify-content: space-between">
+
+   <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+     <div class="officecoverimg">
+       <div class="overlay1">
+         <div class="text mb-5">Office Wear
+           <button style="background: black;opacity: 0.7" type="button" class="btn btn-primary bntcheckout" ><p class="m-0">Check Out</p></button>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+
+    <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+      <div class="tshirtcoverimg">
+        <div class="overlay1">
+          <div class="text mb-5">T-Shirt Collection
+          <button style="background: black;opacity: 0.7" type="button" class="btn btn-primary bntcheckout2" ><p class="m-0">Check Out</p></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+  </section>
+
+
+</div>
+
